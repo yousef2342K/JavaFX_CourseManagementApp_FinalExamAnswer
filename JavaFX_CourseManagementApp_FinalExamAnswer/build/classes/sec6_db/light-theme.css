@@ -1,0 +1,64 @@
+/* 
+    Created on : Dec 23, 2023, 2:18:55 PM
+    Author     : JoeKhalid
+*/
+
+/* light-theme.css */
+/* light-theme.css */
+.root {
+    -fx-background-color: white;
+    -fx-text-fill: #083D77; /* A deep blue color for the text */
+}
+
+.button {
+    -fx-background-color: #E1E5F2; /* A very light blue for button backgrounds */
+    -fx-text-fill: #083D77; /* A deep blue color for text on buttons */
+    -fx-border-color: #1E5A82; /* Slightly darker blue for border to make the button "pop" a little more */
+    -fx-border-width: 2;
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; /* Rounded edges for the buttons */
+}
+
+.button:hover {
+    -fx-background-color: #D4DFED; /* A slightly darker blue for when the button is hovered over */
+}
+
+.label {
+    -fx-text-fill: #083D77; /* Same deep blue color for labels */
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #E1E5F2; /* Light blue background for text fields for consistency */
+    -fx-text-fill: #083D77; /* Deep blue text */
+    -fx-border-color: #1E5A82; /* A border color that pairs well with the overall theme */
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+
+.table-view {
+    -fx-base: white;
+    -fx-control-inner-background: white;
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent; /* Hide grid lines for a cleaner look */
+}
+
+.table-row-cell:filled:even {
+    -fx-background-color: #F4F7FA; /* A very subtle blue for alternating row colors */
+}
+
+.table-row-cell:filled:odd {
+    -fx-background-color: white;
+}
+
+.table-column {
+    -fx-border-color: transparent; /* No borders for headers */
+    -fx-background-color: #E1E5F2; /* Light blue background for headers for consistency */
+}
+
+/* More specific rules for different types of text, depending on your application's needs */
+
+.text {
+    -fx-fill: #083D77; /* A deep blue color for SVG text (if applicable) */
+}
+

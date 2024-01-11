@@ -1,0 +1,67 @@
+/* dark-theme.css */
+.root {
+    -fx-background-color: #1E1E1E; /* A dark shade that isn't completely black */
+    -fx-text-fill: #EAEAEA; /* A softer tone of white that reduces glare */
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #383838 0%, #2C2C2C 100%); /* A subtle gradient for buttons */
+    -fx-text-fill: #E0E0E0;
+    -fx-border-color: #434343; /* A subtle border to provide definition */
+    -fx-border-width: 1;
+    -fx-border-radius: 5; /* Smoother rounded corners */
+    -fx-background-radius: 5; 
+    -fx-padding: 6 12; /* Optimal padding inside the button */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 3, 0, 0, 0); /* A less intense shadow for depth */
+}
+
+.button:hover, .button:focused {
+    -fx-background-color: linear-gradient(to bottom, #4a4a4a 0%, #3b3b3b 100%); /* A slightly lighter gradient for hover state */
+    -fx-text-fill: #FFFFFF;
+}
+
+.label {
+    -fx-text-fill: #083D77;
+    -fx-font-weight: bold; 
+    -fx-background-color: transparent;
+}
+.labelstyle{
+     -fx-text-fill: #E0E0E0;
+    -fx-font-weight: bold; 
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-background-color: #2A2A2A;
+    -fx-text-fill: #E0E0E0;
+    -fx-border-color: #434343;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+}
+
+.table-view {
+    -fx-base: #1E1E1E;
+    -fx-control-inner-background: #1E1E1E;
+    -fx-background-color: #1E1E1E;
+    -fx-table-cell-border-color: #1E1E1E; /* Borders in a matching color to blend in */
+}
+
+.table-row-cell:filled:selected, .table-row-cell:filled:selected .text {
+    -fx-background-color: #0A84FF; /* Vibrant blue for row selections */
+    -fx-text-fill: #FFFFFF;
+    -fx-table-cell-border-color: #0A84FF; /* Matching selection border */
+}
+
+.table-column {
+    -fx-border-color: #1E1E1E;
+    -fx-background-color: #2C2C2C; /* A lighter header for better contrast */
+}
+
+.scroll-bar {
+    -fx-background-color: #202020; 
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #393939; /* A visible thumb with contrast */
+}
+

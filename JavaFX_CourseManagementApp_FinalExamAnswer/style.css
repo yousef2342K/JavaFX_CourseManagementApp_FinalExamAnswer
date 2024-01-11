@@ -1,0 +1,14 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 3, 2024, 12:33:35 PM
+    Author     : joeKhalid
+*/
+
+.button{
+    -fx-background-color: darkslateblue;
+    -fx-text-fill: white;
+    -fx-font-size: large;
+}
